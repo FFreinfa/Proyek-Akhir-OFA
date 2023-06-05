@@ -1,0 +1,138 @@
+{"intents": [
+    {"tag": "salam",
+     "patterns": ["Selamat pagi", "Hai","Selamat siang", "Hello", "Selamat malam", "Halo", "Selamat sore", "Agnes", "Nes", "Hei", "Wei", "Woy"],
+     "responses": [ "Halo saya agnes, ada yang bisa saya bantu?"],
+     "context": [""]
+    },
+    {"tag": "pelaporan hubungan korban dengan pelaku kerja",
+     "patterns": ["Saya telah dilecehkan oleh Pimpinan kerja saya", "Saya telah dilecehkan oleh bos saya", "Saya telah dilecehkan oleh rekan pria", "Saya telah dilecehkan", "Saya telah dilecehkan, tolong saya", "Tolong!! Saya telah dilecehkan"],
+     "responses": ["Baik anda dapat melaporkan kasus ini ke kepolisian setempat, atau ke komunitas peduli & perlindungan perempuan"],
+     "context": [""]
+    },
+    {"tag": "pelaporan hubungan korban dengan pelaku kampus",
+     "patterns": ["Saya telah dilecehkan oleh dosen saya", "Saya telah dilecehkan oleh teman jurusan", "Saya telah dilecehkan oleh kakak tingkat", "Saya telah dilecehkan oleh ketua BEM", "Saya telah dilecehkan oleh ketua panitia"],
+     "responses": ["Baik anda dapat melaporkan kasus ini ke bagian kemahasiswaan, atau ke kepolisian setempat, atau ke lembaga ULTKSP (Unit Layanan Terpadu Kekerasan Seksual) dikampus anda, atau ke komunitas peduli & perlindungan perempuan"],
+     "context": [""]
+    },
+    {"tag":"Pencegahan Di Tempat Kerja",
+     "patterns":["Bagaimana cara mencegah pelecehan seksual di tempat kerja?"],
+     "responses":["1. Jika kamu adalah korban pelecehan, langkah pertama yang harus dilakukan adalah dengan membiarkan pihak yang bersalah tahu bahwa kamu menemukan perilaku mereka sebagai perilaku ofensif. Dalam banyak kasus, hal ini dapat menyelesaikan masalah. 2. Kamu dapat mencoba untuk memberitahu pelaku untuk berhenti, walaupun hal ini mungkin sulit dilakukan. Sampaikan dengan jelas kepada pelaku untuk berhenti melakukan hal tersebut. 3. Periksalah buku pedoman karyawan, kebijakan tertulis, dan lain sebagainya yang mencantumkan kebijakan pelecehan seksual. Kemudian, ikutilah langkah-langkah yang tertera dalam kebijakan tersebut. Selanjutnya, laporkan kepada orang yang ditunjuk sebagai atasanmu untuk menerima pengaduan pelecehan seksual. 4. Bahkan jika kebijakan mengatakan untuk menelepon ataupun bertemu dengan seseorang, selalu tempatkan keluhanmu secara tertulis. Deskripsikan secara detail mengenai komentar seksual, tindakan seksual, hingga pornografi, lelucon atau email tidak pantas, serta apapun yang dialami atau disaksikan olehmu yang memperlihatkan adanya perbedaan perlakuan dari laki-laki terhadap perempuan atau sebaliknya. 5. Sangat penting untuk mendokumentasikan apa yang terjadi dan apa yang telah coba kamu lakukan untuk menghentikannya. Miliki bukti yang cukup untuk dapat melaporkannya ke penyidik perusahaan, instansi pemerintah, ataupun pengadilan. Mulailah dengan mengumpulkan bukti sedetail mungkin mengenai pelecehan. Kemudian, pastikan untuk menyimpan surat, foto, kartu, atau pesan melecehkan yang kamu terima. 6. Memproses ke Pengadilan. Jika lembaga pemerintah kemudian mengeluarkan surat hak untuk menuntut, kamu dapat membawa gugatan perdata pada cedera yang kamu derita akibat pelecehan seksual. Tak perlu menunjukkan luka fisik. Cedera yang paling umum dalam kasus pelecehan seksual ialah luka secara emosional yang diderita oleh korban. Jika kasus pelecehan kemudian berhasil ditangani oleh pengadilan, kamu bisa mendapatkan pemulihan, antara lain: 1. Penempatan kembali, jika kamu hingga kehilangan pekerjaan. 2. Pengembalian uang, jika kamu kehilangan uang atau tidak diberi kenaikan gaji. 3. Persyaratan perusahaan dalam melakukan kebijakan atau pelatihan untuk kemudian menghentikan pelecehan. 7. Korban kekerasan dilindungi oleh negara. Kamu dapat meminta lembaga bantuan hukum di wilayah terdekat untuk kemudian melindungi dan membantu dalam menyelesaikan kasus."],
+     "context": [""]
+    },
+    {"tag": "Pencegahan Di Tempat Kerja Tidak Berhasil",
+     "patterns":["Bagaimana jika pencegahan tersebut tidak berhasil?","Bgmn jk pencegahan tsb tdk berhasil?", "Gimana kalo pencegahan nggak berhasil?", "Gimana kalo pencegahan ngga berhasil?", "Gmn klo pencegahan ga berhasil?"],
+     "responses":["Jika langkah pertama tidak berpengaruh, anda dapat melaporkan ke HRD. Jika langkah kedua tidak berpengaruh juga, maka laporkan kepada pihak berwajib atau kepada atasan. Jika dalam langkah ketiga mereka tak memperbaikinya, atau jika orang yang ditunjuk merupakan pelaku pelecehan, maka pergilah ke orang berikutnya yang ditunjuk."],
+      "context":[""]
+    },
+    {"tag": "Saran",
+     "patterns":["Agnes, bagaimana jika kepolisian tidak mempercayai kasus saya ini?", "Agnes, gimana kalo kepolisian ngga percaya sama kasus saya?", "gimana kalo polisi ga percaya kasus saya ini?"],
+     "responses":["Tenang saja, anda dapat melaporkan kasus anda ke lembaga ULTKSP (Unit Layanan Terpadu Kekerasan Seksual). Apakah anda juga ingin melaporkan kasus ke ULTKSP?","Anda dapat melapor ke lembaga lain seperti ULTKSP, atau ke komunitas lain seperti komnas Perempuan, Lentera Sintas Indonesia, LBH (APIK) Asosiasi Perempuan Indonesia untuk Keadilan, dan Koalisi Perempuan Indonesia. Anda juga dapat melaporkan ini ke keluarga anda."],
+     "context":[""]
+    },
+    {"tag": "Melapor ke ULTKSP",
+     "patterns":["Saya ingin melaporkan kasus ini ke ULTKSP", "Tolong bantu saya untuk melaporkan kasus saya ke ULTKSP"],
+     "responses":["Baik, silakan tuliskan identitas anda berisi nama, usia, alamat, dan kasus yang telah anda alami. Tuliskan juga tempat kejadian, peristiwa serta pelaku yang pelecehan"],
+     "context":[""]
+    },
+    {"tag": "Pelaporan ke ULTKSP(Ya)",
+     "patterns":["Ya", "Iya", "Iya boleh", "Iya silakan"],
+     "responses":["Baik, silakan tuliskan identitas anda berisi nama, usia, alamat, dan kasus yang telah anda alami. Tuliskan juga tempat kejadian, peristiwa serta pelaku yang pelecehan"],
+     "context":[""]
+    },
+    {"tag": "Pelaporan ke ULTKSP(Tidak)",
+     "patterns":["Tidak","Ngga", "Ga", "Tidak usah", "Tidak perlu", "Ngga usah", "Ga usah"],
+     "responses":["Baik jika begitu maka anda juga dapat melaporkan ke komunitas lain seperti komnas Perempuan, Lentera Sintas Indonesia, LBH (APIK) Asosiasi Perempuan Indonesia untuk Keadilan, dan Koalisi Perempuan Indonesia. Dan jangan lupa beritahukan juga kasus ini ke keluarga anda. Apa ada lagi yang bisa saya bantu?"],
+     "context":[""]
+    },
+    {"tag": "Laporan diteruskan ke ULTKSP",
+     "patterns":["Bella, 19 Tahun, Jalan Kalimalang Bekasi Barat Nomor 58. Pelaku memfoto saya dari atas Toilet ketika saya sedang BAB di Toilet Kampus Universitas Bekasi dan menyebarkan foto saya. Pelaku merupakan seorang mahasiswa dan kakak tingkat 2 tahun diatas saya, berjenis kelamin laki-laki dengan ciri-ciri rambut lurus pendek berwarna hitam, tinggi badan kira-kira 171."],
+     "responses": ["Baik laporan anda telah diterima, saya akan langsung meneruskan laporan anda ke ULTKSP. Apa ada lagi yang bisa saya bantu?"],
+     "context":[""]
+    },
+    {"tag": "tempat melapor",
+     "patterns": ["Dimana saya bisa melapor hal tersebut?", "Ngelapor kayak gini biasanya dimana?", "Kasus gini lapornya dimana sih?", "Kasus begini ngelapornya dimana seh?", "Melapor pelecehan dimana?", "Ngelapor pelecehan dimana?"],
+     "responses": ["Anda dapat melapor ke lembaga ULTKSP (Unit Layanan Terpadu Kekerasan Seksual) fakultas terkait, kepolisian terdekat, atau ke unit pemberdayaan perempuan"],
+     "context": [""]
+    },
+    {"tag": "Komunitas lainnya",
+     "patterns":["Apa ada komunitas lainnya yang menangani kasus pelecehan seksual?", "Komunitas apa saja yang dapat menangani kasus ini?", "Komunitas apa saja yang dapat menangani kasus ini?", "Komunitas apa aja yang dapat menangani kasus ini?", "Komunitas apa aj yg dpt menangani kasus ini?", "Komunitas apa saja yang bisa menangani kasus ini?", "Komunitas mana saja yang dapat menangani kasus ini?", "Komunitas mana aja yang dapat menangani kasus ini?", "Komunitas mn aj yg dpt menangani kasus ini?", "Komunitas mana saja yang bisa menangani kasus ini?"],
+     "responses":["Koalisi Perempuan Indonesia, Komnas Perempuan, Lentera Sintas Indonesia, LBH (APIK) Asosiasi Perempuan Indonesia untuk Keadilan"],
+     "context":[""]
+    },
+    {"tag": "Menghubungi komnas Perempuan",
+     "patterns":["Bagaimana cara menghubungi Komnas Perempuan?", "Gimana cara menghubungi Komnas Perempuan?", "Bgmn cara menghubungi Komnas Perempuan?", "Gmn cara menghubungi Komnas Perempuan?", "Gimana cara hubungin Komnas Perempuan?", "Gmn cara hubungin Komnas Perempuan?", "Cara hubungin Komnas Perempuan gimana?", "Cara hubungin Komnas Perempuan gmn?"],
+     "responses":["Anda dapat menghubungi Komisi Nasional Anti-Kekerasan terhadap Perempuan (KOMNAS Perempuan) melalui nomor telepon +62213903963, Fax: +62213903922, atau mengunjungi laman resmi di http://komnasperempuan.or.id/, atau datang ke kantor pusat di Jl. Latuharhari No 4B, RT 01/RW 04, Menteng 10310 Jakarta Pusat, DKI Jakarta. Anda juga dapat menghubungi melalui Email resmi: mail@komnasperempuan.go.id"],
+     "context" :[""]
+    },
+    {"tag": "Melapor ke Komnas Perempuan",
+     "patterns":["Saya ingin melaporkan kasus ini ke Komnas Perempuan", "Tolong bantu saya untuk melaporkan kasus saya ke Komnas Perempuan"],
+     "responses":["Baik, silakan tuliskan identitas anda berisi nama, usia, alamat, dan kasus yang telah anda alami. Tuliskan juga tempat kejadian, peristiwa serta pelaku yang pelecehan"],
+     "context":[""]
+    },
+    {"tag": "Kasus dilaporkan ke Komnas Perempuan",
+     "patterns":["Shinta, 21 Tahun, Jalan Ketintang Surabaya Nomor 21, Saya telah diperkosa. Pelaku seorang pria kira-kira berusia 40 tahun, Tinggi badan kira-kira 173 cm, Berbadan kurus, Berkulit Sao Matang, Ciri-ciri memakai baju berwarna biru dan celana berwarna merah. Saya diculik, ditampar dan dipukul, dan diperkosa di rumah pelaku di daerah Ngagel", "Cindy, 19 Tahun, Jalan Mustaqim Bekasi Timur Nomor 29. Pelaku memfoto saya dari atas Toilet ketika saya sedang BAB di Toilet Kampus Universitas Bekasi dan menyebarkan foto saya. Pelaku merupakan seorang mahasiswa dan kakak tingkat 2 tahun diatas saya, berjenis kelamin laki-laki dengan ciri-ciri rambut panjang berwarna hitam, tinggi badan kira-kira 176."],
+     "responses":["Baik laporan anda telah diterima, saya akan langsung meneruskan laporan anda ke Komnas Perempuan"],
+     "context":[""]
+    },
+    {"tag": "Melapor ke LBH (APIK)",
+     "patterns":["Saya ingin melaporkan kasus ini ke LBH (APIK)", "Tolong bantu saya untuk melaporkan kasus saya ke LBH (APIK)"],
+     "responses":["Baik, silakan tuliskan identitas anda berisi nama, usia, alamat, dan kasus yang telah anda alami. Tuliskan juga tempat kejadian, peristiwa serta pelaku yang pelecehan"],
+     "context":[""]
+    },
+    {"tag": "Kasus dilaporkan ke LBH (APIK)",
+     "patterns":["Christine 22 Tahun, Jalan Sudirman Jakarta Nomor 96, Saya telah diperkosa. Pelaku seorang pria kira-kira berusia 30 tahun, Tinggi badan kira-kira 170an cm, Berbadan kurus, Ciri-ciri memakai baju kaos berwarna hitam dan celana jeans. Saya diculik, ditampar dan dipukul, dan diperkosa di rumah pelaku di daerah Pondok Labu", "Mary, 18 Tahun, Jalan Kalijodo Jakarta Utara Nomor 2. Pelaku melakukan tindakan kekerasan seksual dan memaksa saya untuk telanjang, kemudian pelaku memfoto saya dan menyebarkan foto saya. Pelaku merupakan seorang mahasiswa dan kakak tingkat 2 tahun diatas saya, berjenis kelamin laki-laki dengan ciri-ciri rambut berwarna hitam, tinggi badan kira-kira 176."],
+     "responses":["Baik laporan anda telah diterima, saya akan langsung meneruskan laporan anda ke LBH (APIK)"],
+     "context":[""]
+    },
+    {"tag": "Melapor ke Kepolisian",
+     "patterns":["Saya ingin melaporkan kasus ini ke Kepolisian", "Tolong bantu saya untuk melaporkan kasus saya ke Kepolisian"],
+     "responses":["Baik, silakan tuliskan identitas anda berisi nama, usia, alamat, dan kasus yang telah anda alami. Tuliskan juga tempat kejadian, peristiwa serta pelaku yang pelecehan"],
+     "context":[""]
+    },
+    {"tag": "Kasus dilaporkan ke Kepolisian",
+     "patterns":["Shinta, 21 Tahun, Jalan Ketintang Surabaya Nomor 21, Saya telah diperkosa. Pelaku seorang pria kira-kira berusia 40 tahun, Tinggi badan kira-kira 173 cm, Berbadan kurus, Berkulit Sao Matang, Ciri-ciri memakai baju berwarna biru dan celana berwarna merah. Saya diculik, ditampar dan dipukul, dan diperkosa di rumah pelaku di daerah Ngagel", "Cindy, 19 Tahun, Jalan Mustaqim Bekasi Timur Nomor 29. Pelaku memfoto saya dari atas Toilet ketika saya sedang BAB di Toilet Kampus Universitas Bekasi dan menyebarkan foto saya. Pelaku merupakan seorang mahasiswa dan kakak tingkat 2 tahun diatas saya, berjenis kelamin laki-laki dengan ciri-ciri rambut panjang berwarna hitam, tinggi badan kira-kira 176."],
+     "responses":["Baik laporan anda telah diterima, saya akan langsung meneruskan laporan anda ke Kepolisian terdekat divisi Pemberdayaan Perempuan"],
+     "context":[""]
+    },
+    {"tag": "Menghubungi Lentera Sintas Indonesia",
+     "patterns":["Bagaimana Cara menghubungi Lentera Sintas Indonesia?"],
+     "responses":["Anda dapat menghubungi melalui https://www.instagram.com/lentera_id/?hl=en dan kunjungi laman linktr.ee/lentera2023 pada bagian profil akun. Kemudian pilih 'Pendaftaran Pertemuan Tertutup @lentera.id"],
+     "context":[""]
+    },
+    {"tag": "Menghubungi Koalisi Perempuan Indonesia",
+     "patterns":["Bagaimana Cara menghubungi Koalisi Perempuan Indonesia?"],
+     "responses":["Anda dapat menghubungi Koalisi Perempuan Indonesia melalui nomor telepon 021-26964703, atau mengunjungi laman resmi di https://www.koalisiperempuan.or.id/, atau dapat datang ke kantor pusat Jl. Siaga IB No.49 RT/RW.003/05 Pejaten Barat, Pasar Minggu Jakarta Selatan - Indonesia. Anda juga dapat menghubungi melalui email resmi: sekretariat@koalisiperempuan.or.id"],
+     "context":[""]
+    },
+    {"tag": "Menghubungi LBH (APIK)",
+     "patterns":["Bagaimana Cara menghubungi LBH (APIK)"],
+     "responses":["Anda dapat menghubungi LBH (APIK) Asosiasi Perempuan Indonesia untuk Keadilan melalui nomor telepon +62-21-877-972-89, Fax: +62-21-877-933-00, atau mengunjungi laman resmi di https://lbhapik.or.id/, atau datang ke kantor pusat di Jl. Raya Tengah No. 31 RT 01 RW 09 Kampung Tengah Kramat Jati Jakarta Timur 13540. Anda juga dapat menghubungi melalui Email resmi: asosiasilbhapik@gmail.com"],
+     "context":[""]
+    },
+    {"tag": "alur pelaporan",
+     "patterns": ["Bagaimana alur membuat laporan tindakan kekerasan seksual?", "Ini cara melaporya gimana?", "Gimana cara ngelapornya?", "Cara lapornya gimana?"],
+     "responses": ["Anda mengisi form. Setelah laporan diproses, akan ada pemanggilan. Setelah itu, akan ada pendampingan dan pelayanan bagi korban", "Anda mengisi form. Setelah laporan diproses, akan ada pemanggilan. Setelah itu, akan ada pendampingan dan pelayanan bagi korban ", "Anda mengisi form. Setelah laporan diproses, akan ada pemanggilan. Setelah itu, akan ada pendampingan dan pelayanan bagi korban ", "Anda mengisi form. Setelah laporan diproses, akan ada pemanggilan. Setelah itu, akan ada pendampingan dan pelayanan bagi korban "],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Tidak ada, terima kasih", "Tdk ad, terima kasih", "Tidak ada", "Tdk ad", "Tdk, thx", "Gk ad", "Sampai jumpa", "G ad", "Ga ada", "engga ada", "Selamat tinggal", "ngga udah, makasih", "g udh, makasih", "Engga udah, makasih", "Tdk", "Tidak"],
+     "responses": ["Terima kasih telah menggunakan layanan kami :)", "Kalau ada masalah, hubungi lagi yaa :D", "Semoga harimu menyenangkan"],
+     "context": [""]
+    },
+    {"tag": "Apology",
+     "patterns": ["Maaf ya Agnes, ini aku lagi panik banget", "Sori ya nes, ini aku lagi panik banget", "Sori ya nes, ini aku lg panik bgt", "Sori ya nes, ini aku lgi panik bgt", "Sori ya nes, ini aku lg panik bngt", "Sori ya nes, ini aku lgi panik bngt", "Maaf ya aku lagi panik banget soalnya", "Maaf ya aku lg panik bgt soalnya", "Maaf ya aku lgi panik bgt soalnya", "Maaf ya aku lg panik bngt soalnya"],
+     "responses" :["Iya tidak apa-apa saya mengerti perasaan anda"],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Terima kasih", "Thank you", "ini sangat membantu", "Terima kasih telah membantu saya", "10Q", "THX", "thx", "tengkyu", "Makasih" ],
+     "responses": ["Sama-sama, apa ada lagi yang bisa saya bantu?"],
+     "context": [""]
+    },
+    {"tag": "watermark",
+     "patterns":["Info Agens"],
+     "responses":["Dibuat oleh kelompok Starla 2 beranggotakan Mifta, Valda, Felix, Izza. Agnes bot dibuat sebagai proyek akhir OFA, terima kasih :D"],
+     "context":[""]
+    }
+]
+}

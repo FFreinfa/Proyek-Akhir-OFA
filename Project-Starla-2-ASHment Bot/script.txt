@@ -1,0 +1,63 @@
+{"intents": [
+    {"tag": "salam",
+     "patterns": ["Selamat pagi", "Hai","Selamat siang", "Hello", "Selamat malam", "Halo", "Selamat sore", "Agnes", "Nes"],
+     "responses": [ "Halo saya agnes, ada yang bisa saya bantu?"],
+     "context": [""]
+    },
+    {"tag": "pelaporan hubungan korban dengan pelaku umum",
+     "patterns": ["Saya telah dilecehkan oleh Pimpinan kerja saya", "Saya telah dilecehkan oleh bos saya", "Saya telah dilecehkan oleh seorang pria", "Saya telah dilecehkan", "Saya telah dilecehkan, tolong saya", "Tolong!! Saya telah dilecehkan"],
+     "responses": ["Baik laporan anda telah diterima dan dilaporkan ke kepolisian setempat", "Baik laporan anda telah diterima dan dilaporkan ke lembaga ULTKSP (Unit Layanan Terpadu Kekerasan Seksual), mereka akan segera datang","Baik laporan anda telah diterima dan dilaporkan ke kepolisian setempat, mereka akan segera datang"],
+     "context": [""]
+    },
+    {"tag": "pelaporan hubungan korban dengan pelaku kampus",
+     "patterns": ["Saya telah dilecehkan oleh dosen saya", "Saya telah dilecehkan oleh teman jurusan", "Saya telah dilecehkan oleh kakak tingkat", "Saya telah dilecehkan oleh ketua BEM", "Saya telah dilecehkan oleh ketua panitia"],
+     "responses": ["Baik laporan anda telah diterima dan dilaporkan ke lembaga ULTKSP (Unit Layanan Terpadu Kekerasan Seksual)", "Baik laporan anda telah diterima dan dilaporkan ke kepolisian setempat", "Baik laporan anda telah diterima dan dilaporkan ke lembaga ULTKSP (Unit Layanan Terpadu Kekerasan Seksual), mereka akan segera datang","Baik laporan anda telah diterima dan dilaporkan ke kepolisian setempat, mereka akan segera datang" ],
+     "context": [""]
+    },
+    {"tag": "pelaporan identitas pelaku",
+     "patterns": ["Apa saja yang harus dilaporkan?"],
+     "responses": ["Baik laporan anda telah diterima dan dilaporkan ke lembaga ULTKSP (Unit Layanan Terpadu Kekerasan Seksual)", "Baik laporan anda telah diterima dan dilaporkan ke lembaga ULTKSP (Unit Layanan Terpadu Kekerasan Seksual)"],
+     "context": [""]
+    },
+    {"tag": "Saran",
+     "patterns":["Agnes, bagaimana jika kepolisian tidak mempercayai kasus saya ini?", "Agnes, gimana kalo kepolisian ngga percaya sama kasus saya?", "gimana kalo polisi ga percaya kasus saya ini?"],
+     "responses":["Tenang saja, anda dapat melaporkan kasus anda ke lembaga ULTKSP (Unit Layanan Terpadu Kekerasan Seksual). Apakah anda juga ingin melaporkan kasus ke ULTKSP?","Anda dapat melapor ke lembaga lain seperti ULTKSP. Anda juga dapat melaporkan ini ke keluarga anda."],
+     "context":[""]
+    },
+    {"tag": "Pelaporan ke ULTKSP(Ya)",
+     "patterns":["Ya", "Iya", "Iya boleh", "Iya silakan"],
+     "responses":["Baik laporan anda telah dilaporkan ke lembaga ULTKSP (Unit Layanan Terpadu Kekerasan Seksual)"],
+     "context":[""]
+    },
+    {"tag": "Pelaporan ke ULTKSP(Tidak)",
+     "patterns":["Tidak","Ngga", "Ga", "Tidak usah", "Tidak perlu", "Ngga usah", "Ga usah"],
+     "responses":["Baik jika begitu maka laporkan juga kasus ini ke keluarga anda. Apa ada lagi yang bisa saya bantu?"],
+     "context":[""]
+    },
+    {"tag": "tempat melapor",
+     "patterns": ["Dimana saya bisa melapor hal tersebut?", "Ngelapor kayak gini biasanya dimana?", "Kasus gini lapornya dimana sih?", "Kasus begini ngelapornya dimana seh?", "Melapor pelecehan dimana?", "Ngelapor pelecehan dimana?"],
+     "responses": ["Anda dapat melapor ke lembaga ULTKSP (Unit Layanan Terpadu Kekerasan Seksual) fakultas terkait, kepolisian terdekat, atau ke unit pemberdayaan perempuan"],
+     "context": [""]
+    },
+    {"tag": "alur pelaporan",
+     "patterns": ["Bagaimana alur membuat laporan tindakan kekerasan seksual?", "Ini cara melaporya gimana?", "Gimana cara ngelapornya?", "Cara lapornya gimana?"],
+     "responses": ["Anda mengisi form. Setelah laporan diproses, akan ada pemanggilan. Setelah itu, akan ada pendampingan dan pelayanan bagi korban", "Anda mengisi form. Setelah laporan diproses, akan ada pemanggilan. Setelah itu, akan ada pendampingan dan pelayanan bagi korban ", "Anda mengisi form. Setelah laporan diproses, akan ada pemanggilan. Setelah itu, akan ada pendampingan dan pelayanan bagi korban ", "Anda mengisi form. Setelah laporan diproses, akan ada pemanggilan. Setelah itu, akan ada pendampingan dan pelayanan bagi korban "],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Tidak terima kasih", "Gk ad", "Sampai jumpa", "G ad", "Ga ada","Selamat tinggal", "ngga udah, makasih"],
+     "responses": ["Terima kasih telah menggunakan layanan kami :)", "Kalau ada masalah, hubungi lagi yaa :D", "Semoga harimu menyenangkan"],
+     "context": [""]
+    },
+    {"tag": "Apology",
+     "patterns": ["Maaf ya Agnes, ini aku lagi panik banget", "Sori ya nes, ini aku lagi panik banget"],
+     "responses" :["Iya tidak apa-apa saya mengerti perasaan anda"],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Terima kasih", "Thank you", "ini sangat membantu", "Terima kasih telah membantu saya", "10Q", "THX", "thx", "tengkyu", "Makasih" ],
+     "responses": ["Sama-sama, apa ada lagi yang bisa saya bantu?"],
+     "context": [""]
+    }
+]
+}

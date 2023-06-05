@@ -1,0 +1,10 @@
+DIBUAT OLEH KELOMPOK 2 STARLA:
+
+Felix Febriano Reinfa - 20051204114
+Isyana Valda Choirila Vernanda - 20082010142
+Mifta Aulia Ramadhani - 0920040082
+Nikmah Aqidatul Izza - 205090800111008
+
+CARA AKTIVASI:
+
+Cukup Run "app.py" saja kemudian Copy Paste link localhost
